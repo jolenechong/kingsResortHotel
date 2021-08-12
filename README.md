@@ -10,7 +10,7 @@ Everything on these pages are done by me, including the navigation bar and foote
 # Our Purpose
 Let’s have a look at the WHY behind our project. Every hotel needs a good website, it is the face of the hotel! The design of our website is made with consistency adhering to the brand and trademark of the Kings Resort Hotel. Hotel Websites are a good source of information for prospective guests and can directly impacts sales. We understand the importance of User Experience. So we made it a point to view from the perspective of our users and find out the challenges that they face, to enable us to  make the process of finding what they want on the website more quickly and efficiently, leaving our users happy and in turn ore likely to book a room or event with us.
 
-#Our Approach
+# Our Approach
 Our approach to solve these problems were to first decide the contents of our website, what pages are needed in a hotel website? How can we stand out? 
 Next was our research phase, what do other hotel websites look like and have? What do users look for when looking for a hotel room? 
 Then, we sketched out ideas on paper and made our HTML/CSS prototype. Then, we worked on responsiveness and usability with the help of Javascript. So who are our users?
