@@ -5,7 +5,7 @@ A part of a school project which was to design and build a functional website fo
 I worked on the Rooms Page, Individual Rooms Page and the Rooms Booking Page
 Everything on these pages are done by me, including the navigation bar and footer:
 <br>https://jolenechong.github.io/kingsResortHotel/index.html
-<img src="allimages/KingsResortPage" alt="Screenshot of the page">
+<img src="allimages/KingsResortPage.png" alt="Screenshot of the page">
 
 # Our Purpose
 Let’s have a look at the WHY behind our project. Every hotel needs a good website, it is the face of the hotel! The design of our website is made with consistency adhering to the brand and trademark of the Kings Resort Hotel. Hotel Websites are a good source of information for prospective guests and can directly impacts sales. We understand the importance of User Experience. So we made it a point to view from the perspective of our users and find out the challenges that they face, to enable us to  make the process of finding what they want on the website more quickly and efficiently, leaving our users happy and in turn ore likely to book a room or event with us.
