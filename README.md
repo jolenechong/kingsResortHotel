@@ -22,4 +22,6 @@ Your browser does not support the video tag.
 </video>
 
 74% of users are more likely to return to a mobile-friendly website, so what can we do with that information? With that, we made it a point to make our website mobile-responsive, this is how it looks on mobile.
-
+<br>
+Check out how it looks on mobile here!<br>
+https://jolenechong.github.io/kingsResortHotel/index.html
