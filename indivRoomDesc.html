@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beach Front Vila - Kings Hotel</title>
+<link rel="stylesheet" type="text/css" href="roomdesc_style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+</style>
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="parallax.min.js"></script>
+<link rel="shortcut icon" href="allimages/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+  <nav id="navbar">
+    <h1 style="text-align:center;padding-top: 15px;font-style: italic;font-weight: 300;">Kings Resort</h1>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu" style="margin: auto;">
+      <li>
+      <div class="dropdown">
+        <a href="index.html" class="dropdownColor">Explore</a>
+        <div class="dropdown-content">
+          <a class="dropdownLink" href="index.html">Resort overview</a>
+          <a class="dropdownLink" href="events.html">Events</a>
+          <a class="dropdownLink" href="eventsBooking.html">Events Booking</a>  
+      </div>
+      </div>
+      </li>
+      <li>
+        <div class="dropdown">
+          <a href="roomdescription.html"class="dropdownColor">Stay</a>
+          <div class="dropdown-content">
+            <a class="dropdownLink" href="roomdescription.html">All Rooms</a>
+            <a class="dropdownLink" href="roomBooking.html">Booking</a>
+        </div>
+        </div>
+      </li>
+      <li>
+          <div class="dropdown">
+            <a href="facilities.html"class="dropdownColor">Experience</a>
+            <div class="dropdown-content">
+              <a class="dropdownLink" href="facilities.html">Facilities</a>
+              <a class="dropdownLink" href="facilitiesBooking.html">Facilities Booking</a>
+          </div>
+          </div>
+      </li>
+      <li>
+       <div class="dropdown">
+         <a href="feedbackForm.html"class="dropdownColor">Feedback</a>
+       </div>
+   </li>
+      <li><a class="dropdownColor" id="activedropdown" href="roomdescription.html">Book Now</a></li>
+    </ul>
+  </nav>
+
+<header class="parallax-window search" data-parallax="scroll" data-image-src="allimages/hotelimage5.jpg" style="height:50vh;"></header>
+
+<div style="background-color:#f6f6f6;">
+<section class="descriptionHotel" style="padding-top:60px;">
+<h1>Beach Front Vila</h1>
+<p style="font-size:15px;">
+  Location
+</p>
+<div class="ctaButtons2">
+  <a href="roomBooking.html" target="_blank" class="mainButton" style="text-decoration: none;"><span><span>Book Now</span></span></a>
+  <a href="" style="padding-left: 10px;" class="secondaryButton">Discover More</a>
+</div>
+
+<h3>About Beach Front Vila...</h3>
+<p>
+  Have you ever seen the beach from the comfort of your bed? Wondering what that feels like? Relax on the comfortable sun loungers beside your very own pool with Jacuzzi! Check out the list of hotel amentities we have in this room below!
+</p>
+
+<section id="hotelAmenities">
+  <h3>Hotel Amenities</h3>
+  <div class="row">
+    <div class="column"s>
+      <ul>
+        <li><img src="allimages/check.svg" alt="A Green Tick"> Free Wifi</li>
+        <li><img src="allimages/check.svg" alt="A Green Tick"> Pool</li>
+        <li><img src="allimages/check.svg" alt="A Green Tick"> Laundry Facilities</li>
+        <li><img src="allimages/check.svg" alt="A Green Tick"> 24 Hour Front Desk</li>
+        <li><img src="allimages/check.svg" alt="A Green Tick"> Wifi</li>
+        <li><img src="allimages/check.svg" alt="A Green Tick"> Fridge</li>
+      </ul>
+    </div>
+    <div class="column right1">
+      <ul style="list-style-type: none;">
+        <li><img src="allimages/check.svg" alt="A Green Tick"> Safe</li>
+        <li><img src="allimages/check.svg" alt="A Green Tick"> Air-Conditioned</li>
+        <li><img src="allimages/check.svg" alt="A Green Tick"> Cable-TV service</li>
+        <li><img src="allimages/check.svg" alt="A Green Tick"> No Smoking</li>
+        <li><img src="allimages/check.svg" alt="A Green Tick"> Shower Ammenities - Soap, Towel</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<h1 style="text-align:center; padding:10px;">Gallery</h1>
+
+<section class="gallery" >
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="allimages/hotelimage5.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="allimages/hotelimage5b.png" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="allimages/hotelimage5c.png" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="allimages/hotelimage5d.png" style="width:100%">
+  </div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</section>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+</section>
+<br>
+
+<!-- show recommended hotels here-->
+<section class="recommendedHotels">
+  <h3>You might be interested in...</h3>
+  <br>
+<div class="scrolling-wrapper">
+      <div class="card">
+          <img src="allimages/hotelimage1.png">
+          <h1>Bayside Resort</h1>
+          <a href="" class="mainButton"><span><span>See More Here</span></span></a>
+        </div>
+    <div class="card">
+      <img src="allimages/hotelimage6.jpg">
+      <h1>Suite Resort</h1>
+      <a href="" class="mainButton"><span><span>See More Here</span></span></a>
+    </div>
+    <div class="card">
+      <img src="allimages/hotelimage7.jpg">
+      <h1>Sea View</h1>
+      <a href="" class="mainButton"><span><span>See More Here</span></span></a>
+    </div>
+    <div class="card">
+      <img src="allimages/hotelimage2.jpg">
+      <h1>Forest View</h1>
+      <a href="" class="mainButton"><span><span>See More Here</span></span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div id="footerDetails">
+  <div class="row">
+    <div class="column">
+      <ul>
+        <li class="main">Our Rooms</li>
+        <li><a href="roomdescription.html#beachFrontVila">Beach Front Vila</a></li>
+        <li><a href="roomdescription.html#suiteResort">Suite Resort</a></li>
+        <li><a href="roomdescription.html#seaView">Sea View</a></li>
+        <li><a href="roomdescription.html#baysideResort">Bayside Resort</a></li>
+        <li><a href="roomdescription.html#forestView">Forest View</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <ul>
+        <li class="main">Quick Links</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="roomdescription.html">Rooms</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="column">
+      <ul>
+        <li class="main">KINGS RESORT HOTEL</li>
+        <li class="introFooter" style="color: #ababab;font-size:13px;">Here at Kings Resort Hotel, we provide the finest quality service and rooms. Bringing you renowned chefs from all over the world with luxurious beds, what more would you want during a vacation? With our world-class events, you will never get bored, so what are you waiting for?</li>
+      </ul>
+    </div>
+    <div class = row>
+      <div class="column">
+        <ul>
+          <li class="main">Stay Connected</li>
+          <form>
+            <input type="email" style="width:270px;height:35px;border:none;border-radius:5px 0 0 5px;font-family: 'Poppins', sans-serif;"/>
+            <input type="submit" style="width:70px;height:35px;background-color:#CFFFF6;border:none;margin-left:-4px;border-radius:0 5px 5px 0;font-family: 'Poppins', sans-serif;"/>
+          </form>
+          <i class="fa fa-facebook" style="color:white; padding:5px;"></i>
+          <i class="fa fa-instagram" style="color:white; padding:5px;"></i>
+          <i class="fa fa-twitter" style="color:white; padding:5px;"></i>
+          <i class="fa fa-linkedin" style="color:white; padding:5px;"></i>
+          <i class="fa fa-youtube" style="color:white; padding:5px;"></i>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+<p style="text-align:center; background-color:#343b45;color:#757575;padding-bottom:20px;font-size:12px;">Kings Resort Hotel ©2021</p>
+
+<script>
+//for gallery showing rooms
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+}
+</script>
+
+<script>
+  //for navbar
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+    document.getElementById("navbar").style.backgroundColor = "transparent";
+    document.getElementById("activedropdown").style.backgroundColor = "transparent"
+    document.getElementById("activedropdown").style.border = "2px white solid"
+    document.getElementById("navbar").style.backgroundImage = "linear-gradient(black, transparent)"
+    
+    for (i = 0, len = document.querySelectorAll("nav li a").length; i < len; i++) {
+    document.querySelectorAll("nav li a")[i].style.color = "black"
+    }
+
+    for (i = 0, len = document.getElementsByClassName("dropdownColor").length; i < len; i++) {
+    document.getElementsByClassName("dropdownColor")[i].style.color = "white"
+    }
+    
+    // for (i = 0, len = document.getElementsByClassName("dropdown-content").length; i < len; i++) {
+    //   document.getElementsByClassName("dropdown-content")[i].style.color = "black"
+    // }
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+    document.getElementById("navbar").style.backgroundColor = "#CFFFF6";
+    document.getElementById("activedropdown").style.backgroundColor = "coral"
+    document.getElementById("activedropdown").style.border = "none"
+
+    document.getElementsByTagName("nav")[0].style.backgroundImage = "none";
+
+    for (i = 0, len = document.querySelectorAll("nav li a").length; i < len; i++) {
+    document.querySelectorAll("nav li a")[i].style.color = "black"
+    }
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>
